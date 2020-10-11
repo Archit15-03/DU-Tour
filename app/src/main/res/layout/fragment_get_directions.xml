@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Locations"
+    android:background="@drawable/color_cursor_white">
+
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Get Directions"
+                android:textAllCaps="true"
+                android:textColor="@android:color/background_dark"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="75dp">
+
+            <ImageButton
+                android:id="@+id/dirlib"
+                android:layout_width="106dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="1dp"
+                android:src="@drawable/demo1"
+                tools:ignore="RtlCompat" />
+
+
+            <ImageButton
+                android:id="@+id/dirlhc"
+                android:layout_width="106dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/demo2" />
+
+            <ImageButton
+                android:id="@+id/diradmin"
+                android:layout_width="106dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/demo3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="155dp">
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="95dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="1dp"
+                android:text="To Library Block"
+                android:textColor="@android:color/background_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="99dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="30dp"
+                android:text="To New Lecture Hall"
+                android:textColor="@android:color/background_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="95dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="30dp"
+                android:text="To Admin Block"
+                android:textColor="@android:color/background_dark"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="204dp">
+
+            <ImageButton
+                android:id="@+id/diroffice"
+                android:layout_width="106dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="1dp"
+                android:src="@drawable/demo4" />
+
+            <ImageButton
+                android:id="@+id/dirlodge"
+                android:layout_width="106dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/demo5" />
+
+            <ImageButton
+                android:id="@+id/dirlab"
+                android:layout_width="106dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/demo6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="95dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="1dp"
+                android:text="To Faculty Office"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="95dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="35dp"
+                android:text="To Faculty Lodge"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="95dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="35dp"
+                android:text="To Composite Laboratory"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="378dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="320dp">
+
+            <ImageButton
+                android:id="@+id/dirsport"
+                android:layout_width="106dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="1dp"
+                android:src="@drawable/demo7" />
+
+            <ImageButton
+                android:id="@+id/dirbhostel"
+                android:layout_width="107dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/demo8" />
+
+            <ImageButton
+                android:id="@+id/dirghostel"
+                android:layout_width="106dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/demo9" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="95dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="1dp"
+                android:text="To Sports Stadium"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="95dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="30dp"
+                android:text="To Boys Hostel"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="95dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="32dp"
+                android:text="To Girls Hostel"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp">
+            <ImageButton
+                android:id="@+id/dircanteen"
+                android:layout_width="106dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="1dp"
+                android:src="@drawable/demo10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="530dp">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="95dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="1dp"
+                android:text="To Canteen"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="550dp">
+
+            <TextView
+                android:id="@+id/textview16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All the directions are provided from the gate of doon university"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>

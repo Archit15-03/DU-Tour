@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Locations"
+    android:background="@drawable/color_cursor_white"
+    android:fitsSystemWindows="true">
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="202dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="221dp"
+                    android:layout_height="51dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="14dp"
+
+                    android:text="Locations"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="36sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="75dp">
+
+                <ImageButton
+                    android:id="@+id/library"
+                    android:layout_width="106dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginStart="1dp"
+                    android:src="@drawable/demo1"
+                    tools:ignore="RtlCompat" />
+
+
+                <ImageButton
+                    android:id="@+id/LHC"
+                    android:layout_width="106dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/demo2" />
+
+                <ImageButton
+                    android:id="@+id/Admin"
+                    android:layout_width="106dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/demo3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="155dp">
+
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="95dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="1dp"
+                    android:text="Library Block"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="99dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="New Lecture Hall"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="95dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="26dp"
+                    android:text="Admin Block"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="204dp">
+
+                <ImageButton
+                    android:id="@+id/Foffice"
+                    android:layout_width="106dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="1dp"
+                    android:src="@drawable/demo4" />
+
+                <ImageButton
+                    android:id="@+id/Flodge"
+                    android:layout_width="106dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/demo5" />
+
+                <ImageButton
+                    android:id="@+id/Laboratory"
+                    android:layout_width="106dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/demo6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="280dp">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="95dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="1dp"
+                    android:text="Faculty Office"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="95dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="35dp"
+                    android:text="Faculty Lodge"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="95dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="35dp"
+                    android:text="Composite Laboratory"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="378dp"
+                android:layout_height="82dp"
+                android:layout_marginTop="320dp">
+
+                <ImageButton
+                    android:id="@+id/Stadium"
+                    android:layout_width="106dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="1dp"
+                    android:src="@drawable/demo7" />
+
+                <ImageButton
+                    android:id="@+id/Bhostel"
+                    android:layout_width="106dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/demo8" />
+
+                <ImageButton
+                    android:id="@+id/Ghostel"
+                    android:layout_width="106dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/demo9" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="400dp">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="95dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="1dp"
+                    android:text="Sports Stadium"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="95dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="Boys Hostel"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="95dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="32dp"
+                    android:text="Girls Hostel"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="450dp">
+                <ImageButton
+                    android:id="@+id/Canteen"
+                    android:layout_width="106dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="1dp"
+                    android:src="@drawable/demo10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="530dp">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="95dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="1dp"
+                    android:text="Canteen"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+</ScrollView>
+</FrameLayout>

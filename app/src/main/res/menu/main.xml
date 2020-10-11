@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Home"
+        android:id="@+id/id_home"
+        android:orderInCategory="100"
+        android:icon="@drawable/menu1"
+        />
+
+    <item
+        android:title="Locations"
+        android:id="@+id/id_location"
+        android:orderInCategory="101"
+        android:icon="@drawable/menu1"
+        />
+
+    <item
+        android:title="Get Directions"
+        android:id="@+id/id_directions"
+        android:orderInCategory="102"
+        android:icon="@drawable/menu1"
+        />
+    <item
+        android:title="About Us"
+        android:id="@+id/id_about"
+        android:orderInCategory="103"
+        android:icon="@drawable/menu1"
+        />
+    <item
+        android:title="Feedback"
+        android:id="@+id/id_feedback"
+        android:orderInCategory="104"
+        android:icon="@drawable/menu1"
+        />
+
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback"
+    android:background="@drawable/color_cursor_white"
+    android:fitsSystemWindows="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+</LinearLayout>
+    <EditText
+        android:id="@+id/emsilid"
+        android:layout_width="416dp"
+        android:layout_height="79dp"
+        android:ems="10"
+        android:hint="Enter creator's email"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/feed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Give your feedback here"
+        android:layout_marginTop="100dp"
+
+        />
+    <Button
+        android:id="@+id/sendb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="150dp"
+        android:text="Send"/>
+
+</FrameLayout>
